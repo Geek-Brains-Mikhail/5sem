@@ -15,14 +15,13 @@ int SumOddNumbers(int[] MyArray)
     for(int i = 1; i< MyArray.Length; i++)
     {
         sum+=MyArray[i++];
-
     }
     return sum;
 }
 //GETTINGCODE//
 Console.Write("Введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
-int[] MyArray = new int[size];
-FillArray(MyArray);
-PrintArr(MyArray);
-Console.WriteLine($"Сумма чисел, стоящих на нечетных позициях равно {SumOddNumbers(MyArray)} ");
+int[] myArray = new int[size];
+FillArray(myArray);
+PrintArr(myArray);
+Console.WriteLine($"Сумма чисел, стоящих на нечетных позициях равно {SumOddNumbers(myArray)} ");
