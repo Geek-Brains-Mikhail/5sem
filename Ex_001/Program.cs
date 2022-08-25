@@ -10,12 +10,12 @@ void PrintArr(int[] MyArray)
 {
     Console.WriteLine("[{0}]", string.Join(", ", MyArray));
 }
-int QuantityEvenNumber(int[] MyArray)
+int QuantityEvenNumber(int[] myArray)
 {
     int count = 0;
-    for(int i =0; i < MyArray.Length; i++)
+    for(int i =0; i < myArray.Length; i++)
     {
-        if(MyArray[i] %2 ==0)
+        if(myArray[i] %2 ==0)
         {
             count++;
         }
